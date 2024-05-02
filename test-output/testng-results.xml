@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-03T11:49:35 IST" name="Suite" finished-at="2024-04-03T11:57:03 IST" duration-ms="448492">
+    <groups>
+    </groups>
+    <test started-at="2024-04-03T11:49:35 IST" name="Test" finished-at="2024-04-03T11:53:13 IST" duration-ms="218389">
+      <class name="com.becognizant.testcases.BasicTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.becognizant.testcases.BasicTest@7fd7a283]" started-at="2024-04-03T11:49:35 IST" name="setup" finished-at="2024-04-03T11:49:43 IST" duration-ms="8425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.becognizant.testcases.BasicTest@7fd7a283]" started-at="2024-04-03T11:53:08 IST" name="tearDown" finished-at="2024-04-03T11:53:13 IST" duration-ms="4917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.becognizant.testcases.BasicTest -->
+      <class name="com.becognizant.testcases.Test2_onecPage_Test">
+        <test-method signature="navigate_outreach(java.lang.String)[pri:0, instance:com.becognizant.testcases.Test2_onecPage_Test@3f1d2e23]" started-at="2024-04-03T11:51:05 IST" name="navigate_outreach" finished-at="2024-04-03T11:51:24 IST" duration-ms="18988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_outreach -->
+      </class> <!-- com.becognizant.testcases.Test2_onecPage_Test -->
+      <class name="com.becognizant.testcases.Test1_homepage_Test">
+        <test-method signature="getInfo()[pri:1, instance:com.becognizant.testcases.Test1_homepage_Test@4bff7da0]" started-at="2024-04-03T11:49:43 IST" name="getInfo" finished-at="2024-04-03T11:50:49 IST" duration-ms="65831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method signature="verifyOneCogni()[pri:2, instance:com.becognizant.testcases.Test1_homepage_Test@4bff7da0]" started-at="2024-04-03T11:50:50 IST" name="verifyOneCogni" finished-at="2024-04-03T11:51:05 IST" duration-ms="15376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneCogni -->
+      </class> <!-- com.becognizant.testcases.Test1_homepage_Test -->
+      <class name="com.becognizant.testcases.Test3_outreachPage_Test">
+        <test-method signature="print_menu()[pri:1, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:51:25 IST" name="print_menu" finished-at="2024-04-03T11:51:35 IST" duration-ms="10140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_menu -->
+        <test-method signature="print_submenu()[pri:2, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:51:35 IST" name="print_submenu" finished-at="2024-04-03T11:51:37 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_submenu -->
+        <test-method signature="print_interest()[pri:3, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:51:37 IST" name="print_interest" finished-at="2024-04-03T11:51:42 IST" duration-ms="5499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_interest -->
+        <test-method signature="validatesearch()[pri:4, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:51:43 IST" name="validatesearch" finished-at="2024-04-03T11:52:23 IST" duration-ms="40054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesearch -->
+        <test-method signature="validatedate()[pri:5, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:52:23 IST" name="validatedate" finished-at="2024-04-03T11:52:56 IST" duration-ms="33351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedate -->
+        <test-method signature="click_vol()[pri:6, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:52:56 IST" name="click_vol" finished-at="2024-04-03T11:52:57 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_vol -->
+        <test-method signature="fetch_cards()[pri:7, instance:com.becognizant.testcases.Test3_outreachPage_Test@536dbea0]" started-at="2024-04-03T11:52:57 IST" name="fetch_cards" finished-at="2024-04-03T11:53:08 IST" duration-ms="10476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetch_cards -->
+      </class> <!-- com.becognizant.testcases.Test3_outreachPage_Test -->
+    </test> <!-- Test -->
+    <test started-at="2024-04-03T11:53:14 IST" name="Test1" finished-at="2024-04-03T11:57:03 IST" duration-ms="229419">
+      <class name="com.becognizant.testcases.BasicTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.becognizant.testcases.BasicTest@14f232c4]" started-at="2024-04-03T11:53:14 IST" name="setup" finished-at="2024-04-03T11:53:22 IST" duration-ms="8721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.becognizant.testcases.BasicTest@14f232c4]" started-at="2024-04-03T11:56:52 IST" name="tearDown" finished-at="2024-04-03T11:57:03 IST" duration-ms="11120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.becognizant.testcases.BasicTest -->
+      <class name="com.becognizant.testcases.Test2_onecPage_Test">
+        <test-method signature="navigate_outreach(java.lang.String)[pri:0, instance:com.becognizant.testcases.Test2_onecPage_Test@24c22fe]" started-at="2024-04-03T11:54:32 IST" name="navigate_outreach" finished-at="2024-04-03T11:55:09 IST" duration-ms="36843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_outreach -->
+      </class> <!-- com.becognizant.testcases.Test2_onecPage_Test -->
+      <class name="com.becognizant.testcases.Test1_homepage_Test">
+        <test-method signature="getInfo()[pri:1, instance:com.becognizant.testcases.Test1_homepage_Test@13bc8645]" started-at="2024-04-03T11:53:22 IST" name="getInfo" finished-at="2024-04-03T11:54:16 IST" duration-ms="53501" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[@title = 'Settings']/div/span (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64461}, msedge: {msedgedriverVersion: 123.0.2420.65 (49b6a5859239..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64461/devtoo..., se:cdpVersion: 123.0.2420.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b186f0661c2bb8a679846fb477eb212]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@title = 'Settings']/div/span (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64461}, msedge: {msedgedriverVersion: 123.0.2420.65 (49b6a5859239..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64461/devtoo..., se:cdpVersion: 123.0.2420.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b186f0661c2bb8a679846fb477eb212
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.becognizant.pageobjects.homePage.clickAccDetails(homePage.java:31)
+at com.becognizant.testcases.Test1_homepage_Test.getInfo(Test1_homepage_Test.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method signature="verifyOneCogni()[pri:2, instance:com.becognizant.testcases.Test1_homepage_Test@13bc8645]" started-at="2024-04-03T11:54:16 IST" name="verifyOneCogni" finished-at="2024-04-03T11:54:32 IST" duration-ms="15413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneCogni -->
+      </class> <!-- com.becognizant.testcases.Test1_homepage_Test -->
+      <class name="com.becognizant.testcases.Test3_outreachPage_Test">
+        <test-method signature="print_menu()[pri:1, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:55:09 IST" name="print_menu" finished-at="2024-04-03T11:55:19 IST" duration-ms="10217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_menu -->
+        <test-method signature="print_submenu()[pri:2, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:55:19 IST" name="print_submenu" finished-at="2024-04-03T11:55:21 IST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_submenu -->
+        <test-method signature="print_interest()[pri:3, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:55:22 IST" name="print_interest" finished-at="2024-04-03T11:55:27 IST" duration-ms="5588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_interest -->
+        <test-method signature="validatesearch()[pri:4, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:55:27 IST" name="validatesearch" finished-at="2024-04-03T11:56:06 IST" duration-ms="39179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesearch -->
+        <test-method signature="validatedate()[pri:5, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:56:07 IST" name="validatedate" finished-at="2024-04-03T11:56:40 IST" duration-ms="33275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedate -->
+        <test-method signature="click_vol()[pri:6, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:56:40 IST" name="click_vol" finished-at="2024-04-03T11:56:41 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_vol -->
+        <test-method signature="fetch_cards()[pri:7, instance:com.becognizant.testcases.Test3_outreachPage_Test@93081b6]" started-at="2024-04-03T11:56:41 IST" name="fetch_cards" finished-at="2024-04-03T11:56:52 IST" duration-ms="10428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetch_cards -->
+      </class> <!-- com.becognizant.testcases.Test3_outreachPage_Test -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
